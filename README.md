@@ -26,6 +26,7 @@ This dashboard provides detailed insights into:
 The report enables management to evaluate lending performance, assess repayment behavior, reduce credit risk exposure, and improve portfolio profitability.
 
 
+
 ## Key Metrics Included
   - Total Loan Applications: 38,576
   - Total Funded Amount: $435.8 Million
@@ -38,77 +39,92 @@ The report enables management to evaluate lending performance, assess repayment 
   - Top Loan Purpose: Debt Consolidation (18.2K applications)
   - Top State by Applications: California (6,894)
 
+
  
 
 # Key Insights
-1) Overall Call Handling — Strong But With a Critical Gap
-    - The centre answers **81.1% (4,054) of all calls**, leaving **18.9% (946 calls) rejected** — nearly 1 in 5 calls going unanswered.
-    - In a customer service context, an 18.9% rejection rate is a **significant business risk**: each rejected call represents a frustrated customer who likely contacts a competitor or abandons the service relationship.
-    - Industry benchmark for call answer rates is typically **90–95%** for well-staffed centres, meaning there is a ~**10–14 point** performance gap to close.
-    - **Actionable**: The 946 rejected calls should be the #1 priority metric for management. Root cause analysis — whether due to staffing gaps, peak hour overload, or routing failures — must be conducted immediately.
+1) Portfolio Surplus — Received Exceeds Funded by $37.3M
+    - The bank has **funded $435.8M** in loans but **received back $473.1M** — a surplus of **$37.3 Million** representing interest income and fee recovery above principal.
+    - This positive spread confirms the portfolio is **generating net revenue**, not just recycling capital.
+    - However, the bad loan segment tells the opposite story: **$65.5M was funded to bad loan borrowers, but only $37.3M was recovered** — a net loss of **$28.2M on the bad loan book** alone.
+    - **Actionable**: The $28.2M bad loan deficit should be the single most closely watched financial metric. Reducing bad loan exposure by even 2–3 percentage points would translate directly into tens of millions in recovered capital.
 
 
-2) Resolution Rate — Solid Core, But 27% Left Unresolved
-    - Of all 5,000 calls, **3,646 were resolved** — a resolution rate of approximately **72.9%**.
-    - This means ~**1,354 calls (~27.1%) were not resolved** in the first interaction — leading to repeat calls, customer frustration, and increased operational cost.
-    - The unresolved volume of 1,354 contacts is the hidden cost driver in this dataset — each one likely triggers at least one follow-up contact.
-    - **Actionable**: First Call Resolution (FCR) improvement is the highest-ROI target in call centre operations. Moving FCR from ~73% to 85% would dramatically reduce repeat contacts and cut cost-per-resolution.
+2) Bad Loan Exposure — 13.82% is a Red Flag
+    - At **13.82% (5,333 loans)**, the bad loan rate represents a material credit risk concentration.
+    - Industry benchmark for acceptable non-performing loan (NPL) ratios typically sits between **2–5%** for well-managed retail lending portfolios.
+    - The bank's 13.82% rate is **roughly 3x the upper end of healthy benchmarks** — a clear signal that underwriting standards, borrower screening, or collection processes need structural review.
+    - Bad loans collectively represent **$65.5M in funded capital** against only **$37.3M recovered** — a recovery rate of approximately **56.9%**, meaning the bank recovers less than **57** cents for every dollar lent to bad borrowers.
+    - **Actionable**: Immediate credit policy review is warranted. The bad loan cohort should be analyzed by purpose, state, term length, DTI ratio, and interest rate band to identify the highest-risk approval patterns.
 
 
-3) Agent Performance — Near-Equal Call Distribution, But Satisfaction Varies
-    - Call distribution is **remarkably even across all 8 agents** (range of just ~1.5%), indicating effective automatic call distribution (ACD) routing.
-    - However, **Lynda Kelly leads in both answered calls (13.22%) AND satisfaction rate** — a dual distinction that makes her the benchmark agent for the team.
-    - **Micheal Vazquez** has a high rejection share (13.74%) relative to his answered share (11.94%) — a gap that warrants investigation. This could indicate availability issues, longer call durations reducing pickup capacity, or schedule misalignment.
-    - **Actionable**: Use Lynda Kelly's behavior patterns — handling style, call pacing, topic approach — as the template for team-wide coaching. Investigate Micheal Vazquez's rejection-to-answer ratio specifically.
+3) Loan Applications — Consistent Monthly Growth Trajectory
+    - Applications grew steadily from **2,300 in January** to **4,300 in December** — nearly **doubling** over the course of the year.
+    - This upward trajectory indicates strong and growing demand for credit, reflecting either successful marketing, economic conditions driving borrowing needs, or expanded product reach.
+    - The growth is **linear and consistent** with no sharp spikes — suggesting organic, sustainable demand growth rather than a campaign-driven or seasonal burst.
+    - **Actionable**: With volume nearly doubling year-over-year, the bank must ensure that **underwriting capacity scales proportionally** with application volume. Processing backlogs or staff shortages during peak months could force faster, lower-quality credit decisions — the exact environment where bad loan rates rise.
 
 
-4) Call Duration by Agent — Lynda Kelly Tops Handle Time Too
-    - The **Duration on Calls by Agents** chart shows **Lynda Kelly and Ronnie Cohen** with the highest average call durations — yet Kelly also holds the highest satisfaction rate.
-    - This suggests Kelly's longer calls are **quality-driven, not inefficiency-driven** — she spends more time because she is resolving more thoroughly.
-    - Agents like **Ellesse Donnelly and Stewart Blevins** with shorter average durations may be closing calls faster but potentially leaving more unresolved — which would show up in the unresolved call volume.
-    - **Actionable**: Cross-reference each agent's duration data with their individual resolution rates. Agents with short duration + high rejection or unresolved rates need coaching on thoroughness, not speed.
+4) Geographic Concentration — California Dominates, Top 3 States = 33% of Volume
+    - **California leads with 6,894 applications**, followed by New York (3,701) and Florida (2,773).
+    - The top 3 states account for approximately **34% of all applications** — a significant geographic concentration risk.
+    - States like **Georgia (1,355) and Massachusetts (1,310)** represent underpenetrated markets with growth potential.
+    - **Actionable**: Geographic concentration in CA, NY, and FL means the portfolio is disproportionately exposed to economic shocks in these states (housing market downturns, job market shifts, regulatory changes). A deliberate **geographic diversification strategy** targeting mid-tier states would reduce systemic risk.
 
 
-5) Monthly Call Volume — Clear Declining Trend
-    - Call volumes decline across the 3-month window: **April (1,712) → May (1,703) → June (1,585)**.
-    - The drop from April to June represents a ~**7.4% reduction in call volume** over the quarter.
-    - This could reflect: seasonal demand reduction, improved self-service adoption, resolution improvements reducing repeat contacts, or data collection gaps in June.
-    - **Actionable**: Management should determine whether the June decline is a positive indicator (fewer repeat calls due to better FCR) or a negative one (customers giving up). Cross-referencing with customer satisfaction scores and self-service usage data will clarify the story.
+5) Loan Purpose — Debt Consolidation is Overwhelming Primary Driver
+    - **Debt Consolidation alone accounts for nearly 47% of all applications** — meaning almost half the loan book is being used by borrowers to pay off existing debts, not invest in assets or generate income.
+    - This is a significant risk signal: borrowers using new credit to manage existing debt obligations are inherently **higher-risk profiles** with elevated default probability.
+    - **Actionable**: The bank should analyze the **bad loan rate specifically within the Debt Consolidation segment** to determine whether this category is disproportionately contributing to the 13.82% bad loan rate. If so, stricter underwriting criteria or lower credit limits for debt consolidation purposes should be considered.
 
 
-6) Call Topics — Scheduling Dominates, All Topics Nearly Equal
-    - **Scheduling is the single highest-volume topic (1,022 calls)** — but the near-parity across all five topics (range of only 46 calls) indicates a **well-distributed, multi-purpose contact centre** rather than one dominated by a single issue type.
-    - The fact that **Technical Support generates 1,019 calls** (essentially tied with Scheduling) signals that product or service complexity may be driving significant inbound contact — a potential self-service deflection opportunity.
-    - **Actionable**: High Scheduling and Technical Support volumes are prime candidates for **FAQ documentation, chatbot deflection, and customer self-service portal development** — reducing agent load without reducing customer satisfaction.
+6) Home Ownership — Renters are the Largest Borrower Segment
+    - By home ownership status: **RENT (18,439) > MORTGAGE (17,198) > OWN (2,838)** — renters are the single largest group.
+    - Renters — who lack property equity as collateral security — represent a **higher-risk borrower cohort** by conventional lending standards.
+    - Mortgage holders (17,198) represent nearly as large a segment and typically indicate more stable, creditworthy borrowers with established repayment histories.
+    - **Actionable**: Cross-reference home ownership status with bad loan rates. If renter bad loan rates significantly exceed mortgage-holder rates, the bank may need to apply differentiated interest rates, lower credit limits, or additional income verification requirements for renter applicants.
 
 
+7) Loan Term — 60-Month Term Dominates at ~73%
+    - **60-month (5-year) loans: 28,200 applications (~73%)** vs **36-month loans: 10,300 (~27%).**
+    - The heavy preference for longer-term loans indicates borrowers are prioritizing **lower monthly payments over total interest cost** — a pattern associated with borrowers who are already stretched financially.
+    - Longer loan terms also mean **the bank's capital is locked for longer**, increasing exposure to economic cycle changes and borrower circumstance shifts over the repayment period.
+    - **Actionable**: The bank should monitor bad loan rates by term length. If 60-month loans underperform 36-month loans in recovery rate (which is typical), **offering interest rate incentives for 36-month terms** could improve portfolio quality while reducing long-duration risk.
+
+          
 
 # Business Recommendations (Recommendations for Management)
-  - Reduce Call Rejections: Implement agent training and workload balancing to lower rejection rates.
-  - Replicate Best Practices: Use Lynda Kelly’s approach as a benchmark for improving satisfaction across agents.
-  - Topic-Specific Training: Focus training on Scheduling and Technical Support, the most frequent call topics.
-  - Enhance Resolution Rates: Introduce knowledge bases and AI-assisted support to boost resolution efficiency.
-  - Customer Experience Programs: Provide proactive communication and follow-ups to maintain satisfaction above 80%.
-  - Performance Monitoring: Track agent call durations and rejection rates to identify improvement areas.
+  - **Strengthen Risk Controls**: Tighten credit checks for high‑DTI borrowers and loans with higher interest rates.
+  - **Focus on Debt Consolidation**: Optimize offerings in debt consolidation, the largest loan category, while monitoring repayment behavior.
+  - **Improve Recovery Strategies**: Enhance collection processes for charged-off loans to reduce financial losses.
+  - **Geographic Targeting**: Expand lending in high‑volume states (CA, NY, FL) with tailored risk models.
+  - **Loan Term Optimization**: Promote shorter loan terms (36 months) to reduce long-term risk exposure.
+  - **Customer Segmentation**: Use analytics to identify borrower profiles most likely to repay, improving portfolio quality.
 
-1) Priority 1 — Reduce the 18.9% Call Rejection Rate Urgently
-    - Nearly 1 in 5 calls is going unanswered. This is the most damaging metric in the dashboard from a customer retention and revenue perspective. Management should conduct a peak hour analysis to identify when rejections cluster, assess whether staffing levels are adequate for those windows, and consider implementing callback request systems so rejected callers are not simply lost. Target: bring rejection rate below 10% within one quarter.
 
-2) Priority 2 — Launch a First Call Resolution (FCR) Improvement Program
-    - With ~27% of calls unresolved, a structured FCR program is non-negotiable. This includes: identifying the most common unresolved topics by agent, creating resolution scripts and decision trees for each topic, empowering agents with the authority to resolve issues without escalation, and tracking FCR as a primary KPI on the dashboard. Target FCR rate: 85%+.
+1) Priority 1 — Conduct an Urgent Bad Loan Root Cause Analysis
+    - At 13.82%, the bad loan rate is dangerously above industry benchmarks. Management must immediately segment the 5,333 bad loans by: loan purpose, state, home ownership status, term length, DTI band, and interest rate tier. This analysis will reveal whether bad loans are concentrated in a specific approval pattern — enabling a targeted policy fix rather than blanket credit tightening that could suppress good loan volume.
 
-3) Priority 3 — Build Coaching Programs Around Lynda Kelly's Approach
-    - Lynda Kelly leads in satisfaction rate, answered call share, and call duration — making her the team's clearest benchmark. Management should conduct call recording reviews of Kelly's highest-rated interactions, document her communication style and resolution approach, and incorporate these into a structured peer coaching or buddy system where lower-performing agents shadow her methodology.
+2) Priority 2 — Tighten Underwriting for Debt Consolidation Applications
+    - With Debt Consolidation representing ~47% of applications and being inherently higher-risk, the bank must apply stricter credit controls to this segment. Recommended measures: lower maximum loan amounts for pure debt consolidation purposes, require verified income documentation (not self-reported), apply a minimum credit score threshold 10–15 points above the standard floor, and implement a maximum DTI cap specifically for this purpose category.
 
-4) Priority 4 — Investigate Micheal Vazquez's Rejection Imbalance
-    - Vazquez has the lowest answered call share (11.94%) but one of the highest rejection shares (13.74%). This imbalance — answering fewer calls but contributing more to rejections — must be investigated. Possible causes: longer average handle times reducing availability, schedule gaps during peak hours, or technical issues with his station. A one-week performance audit with targeted support should be initiated.
+3) Priority 3 — Introduce DTI-Based Risk Tiering
+    - The data confirms DTI ratio is a meaningful predictor of repayment outcomes (Fully Paid avg DTI: 13.17% vs Charged Off avg DTI: 14.00%). The bank should formalize DTI-based risk tiers: low risk (DTI <10%), moderate risk (10–15%), elevated risk (15–20%), and high risk (>20%), with differentiated interest rates, credit limits, and collateral requirements for each tier. This makes risk pricing explicit and data-driven.
 
-5) Priority 5 — Deploy Self-Service Solutions for Scheduling & Technical Support
-    - Scheduling (1,022) and Technical Support (1,019) together account for ~40% of all call volume. A significant portion of these are likely routine, repeatable queries that could be handled by a self-service knowledge base, interactive FAQ portal, or AI-powered chatbot. Deflecting even 25% of these calls would free approximately 500 agent hours per quarter for more complex, high-value interactions.
+4) Priority 4 — Scale Underwriting Operations to Match Application Growth
+    - Applications nearly doubled from January to December. Without proportional growth in underwriting team capacity, credit review quality will degrade under volume pressure — historically a leading indicator of rising bad loan rates. Management should assess whether current staff headcount, technology infrastructure, and decision timelines are adequate for 4,000+ applications per month and build a hiring or automation plan accordingly.
 
-6) Priority 6 — Investigate the June Volume Decline
-    - The 7.4% call volume drop in June needs context before it can be managed. Management should pull customer satisfaction data for June, review self-service portal traffic for the same period, check whether any product or policy changes reduced inbound contact needs, and confirm there are no data gaps in the June records. A decline that reflects better FCR or self-service adoption is positive; one that reflects customer disengagement is a red flag.
+5) Priority 5 — Develop a Geographic Diversification Strategy
+    - With ~34% of applications concentrated in just 3 states (CA, NY, FL), the portfolio carries meaningful geographic risk. The bank should design targeted marketing campaigns for underrepresented but creditworthy markets — states like Georgia, Massachusetts, Virginia, and Pennsylvania already show meaningful application volumes and could be developed with focused outreach, local partnerships, and digital lending channel expansion.
 
+6) Priority 6 — Reassess 60-Month Loan Term Incentive Structure
+    - The 73% preference for 60-month terms increases long-duration risk and likely correlates with higher default rates. Introduce a structured interest rate differential that makes 36-month loans meaningfully more attractive (e.g., 50–75 basis points lower rate), and model the revenue impact. Even shifting 15% of 60-month applicants to 36-month terms would materially reduce portfolio duration risk.
+
+7) Priority 7 — Build a Renter-Specific Risk Framework
+    - Renters (18,439 applications) outnumber mortgage holders (17,198) and own-home borrowers (2,838 combined). Without property equity as implicit collateral, renter loans carry higher unsecured risk. The bank should analyze renter vs. mortgage-holder default rates and, if the gap is significant, introduce rent-to-income verification requirements, lower maximum loan amounts, or mandatory savings account opening as a commitment signal for renter applicants.
+
+8) Priority 8 — Leverage the $37.3M Portfolio Surplus for Risk Reserve Building
+    - The portfolio generates a $37.3M surplus of received over funded amounts. Rather than treating this entirely as profit, management should allocate a portion — aligned with the bad loan rate — into a formal loan loss reserve fund. This builds a financial buffer against future charge-offs, demonstrates prudent risk management to regulators, and reduces earnings volatility during economic downturns.
 
 
 # Business Value
@@ -119,6 +135,7 @@ This dashboard enables banking management to:
 - **Track application demand trends** to align underwriting capacity with volume growth
 - **Present loan portfolio performance** to board members, regulators, and investors with visual clarity
 - **Support credit policy decisions** with data-backed evidence rather than intuition
+
 
 
 ## Tools & Technologies
